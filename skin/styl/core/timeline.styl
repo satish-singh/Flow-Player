@@ -85,7 +85,9 @@
 
    .fp-buffer
       transition width .25s linear
-
+   .fp-progress.animated
+      transition-timing-function linear
+      transition-property width, height
    &.is-touch .fp-timeline
       overflow visible
 
